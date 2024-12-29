@@ -65,7 +65,7 @@ const Page = () => {
   }, [user]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+    <div className="min-h-screen flex items-center justify-center bg-red-900 text-white">
       <div className="p-8 rounded-lg shadow-lg bg-gray-800 w-96 relative">
         <h2 className="text-3xl font-bold text-center mb-8 animate-pulse text-blue-400">
           {loading ? "Loading..." : "Sign Up"}
@@ -160,3 +160,6 @@ const Page = () => {
 };
 
 export default Page;
+
+
+
